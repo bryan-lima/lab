@@ -144,7 +144,7 @@
     <div class="row mb-5">
 
       <!-- Navbar lateral -->
-      <div class="col-3">
+      <div class="col-sm-6 col-md-4 mb-3">
         <nav class="navbar navnbar-light bg-light" id="navbarVertical">
           <nav class="nav nav-pills flex-column">
 
@@ -172,7 +172,7 @@
       </div>
 
       <!-- Conteúdo -->
-      <div class="col-9">
+      <div class="col-sm-6 col-md-8">
         <div data-spy="scroll" data-targe="navbarVertical" data-offset="0" class="scrollspySite">
 
           <h4 id="item1">Proin rhoncus</h4>
@@ -222,16 +222,16 @@
     </div>
 
     <!-- Cards -->
-    <div class="row mb-5">
+    <div class="row justify-content-sm-center">
 
       <!-- Card 1 -->
-      <div class="col-sm-4">
-        <div class="card">
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
           <img class="card-img-top" src="imgs/card-item-01.jpg">
           <div class="card-body">
             <h4 class="card-title">Nam vel laoreet</h4>
             <h6 class="card-subtitle mb-2 text-muted">Donec eget fermentum</h6>
-            <p class="card-text">Phasellus iaculis posuere leo sit amet porta.</p>
+            <p class="card-text">Phasellus iaculis posuere leo sit amet porta varius porttitor eros.</p>
           </div>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Curabitur vestibulum</li>
@@ -239,8 +239,8 @@
             <li class="list-group-item">Proin quis mattis</li>
           </ul>
           <div class="card-body">
-            <a class="card-link" href="#">Nam vel</a>
-            <a class="card-link" href="#">Nullam varius</a>
+            <a class="card-link" href="#" data-toggle="modal" data-target="#modal-1">Nam vel</a>
+            <a class="card-link" href="#" data-toggle="modal" data-target="#modal-2">Nullam varius</a>
           </div>
           <div class="card-footer text-muted">
             Aliquam feugiat
@@ -249,8 +249,8 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-sm-4">
-        <div class="card">
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
           <img class="card-img-top" src="imgs/card-item-02.jpg">
           <div class="card-body">
             <h4 class="card-title">Ut sodales lacus</h4>
@@ -263,8 +263,8 @@
             <li class="list-group-item">Sed tortor magna</li>
           </ul>
           <div class="card-body">
-            <a class="card-link" href="#">Curabitur</a>
-            <a class="card-link" href="#">Aenean purus</a>
+            <a class="card-link" href="#" data-toggle="modal" data-target="#modal-3">Curabitur</a>
+            <a class="card-link" href="#" data-toggle="modal" data-target="#modal-4">Aenean purus</a>
           </div>
           <div class="card-footer text-muted">
             Sed pretium eleifend
@@ -273,8 +273,8 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-sm-4">
-        <div class="card">
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
           <img class="card-img-top" src="imgs/card-item-03.jpg">
           <div class="card-body">
             <h4 class="card-title">Quisque in ex faucibus</h4>
@@ -287,8 +287,8 @@
             <li class="list-group-item">Mauris porta quam nec</li>
           </ul>
           <div class="card-body">
-            <a class="card-link" href="#">Donec eget</a>
-            <a class="card-link" href="#">Sed pretium</a>
+            <a class="card-link" href="#" data-toggle="modal" data-target="#modal-5">Donec eget</a>
+            <a class="card-link" href="#" data-toggle="modal" data-target="#modal-6">Sed pretium</a>
           </div>
           <div class="card-footer text-muted">
             Fermentum velit
@@ -298,6 +298,235 @@
 
     </div>
 
+  </div>
+
+  <!-- Modal -->
+  <!-- Modal 1 -->
+  <div class="modal fade" id="modal-1" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <!-- Cabeçalho modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Morbi pretium ipsum</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+
+        <!-- Corpo modal -->
+        <div class="modal-body">
+          <p>Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. 
+          
+            Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. 
+          
+            Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. </p>
+        </div>
+
+        <!-- Rodapé modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="modal-2" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+
+        <!-- Cabeçalho modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Morbi pretium ipsum</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>x</span>
+          </button>
+        </div>
+
+        <!-- Corpo modal -->
+        <div class="modal-body">
+          <p>Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros.
+            Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. 
+            Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. 
+            Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. 
+            Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. </p>
+        </div>
+
+        <!-- Rodapé modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal" id="modal-3" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+
+        <!-- Cabeçalho modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Morbi pretium ipsum</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>close</span>
+          </button>
+        </div>
+
+        <!-- Corpo modal -->
+        <div class="modal-body">
+          <p>Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. </p>
+        </div>
+
+        <!-- Rodapé modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4 -->
+  <div class="modal fade" id="modal-4" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <!-- Cabeçalho modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Morbi pretium ipsum</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>X</span>
+          </button>
+        </div>
+
+        <!-- Corpo modal -->
+        <div class="modal-body">
+          <p>Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+            Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+            blandit ac molestie vel, gravida quis eros. </p>
+        </div>
+
+        <!-- Rodapé modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5 -->
+  <div class="modal fade" id="modal-5" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <!-- Cabeçalho modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Morbi pretium ipsum</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+
+        <!-- Corpo modal -->
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <h5>Proin tempus placerat</h5>
+                <p>Nullam at efficitur ante, ac commodo magna. Nam malesuada feugiat magna ac laoreet. 
+                Morbi ultricies urna felis, at sagittis massa lacinia id. Aliquam erat volutpat. 
+                In ac libero id augue maximus faucibus. Aenean sapien justo, maximus id feugiat in, 
+                eleifend nec neque. Vivamus eu vulputate nulla. Nunc at odio nec mauris ultricies rutrum 
+                sed non massa. Vivamus ut ante varius augue ultrices malesuada id eu lacus. 
+                Nunc facilisis vestibulum vehicula.</p>
+              </div>
+              <div class="col-6">
+                <h5>Lorem ipsum dolor sit amet</h5>
+                <p>Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+                  Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, blandit ac 
+                  molestie vel, gravida quis eros. Mauris commodo arcu vitae urna efficitur suscipit. 
+                  Donec sodales, magna eu egestas condimentum, tellus velit elementum purus, 
+                  nec tincidunt velit nisl sed lorem. Phasellus sed mauris sit amet lacus tristique 
+                  aliquet ac bibendum magna. Sed iaculis id leo id placerat. Suspendisse semper semper 
+                  ullamcorper. Aliquam elementum metus in nunc lobortis, ut dictum tellus interdum. 
+                  Curabitur ut mauris non mauris rutrum hendrerit vel non nisl.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rodapé modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6 -->
+  <div class="modal fade" id="modal-6" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <!-- Cabeçalho modal -->
+        <div class="modal-header">
+          <h5 class="modal-title">Morbi pretium ipsum</h5>
+          <button type="button" class="close" data-dismiss="modal">
+            <span>x</span>
+          </button>
+        </div>
+
+        <!-- Corpo modal -->
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-6">
+                <img src="imgs/card-item-01.jpg">
+                <p class="mt-2">Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+                  Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+                  blandit ac molestie vel, gravida quis eros. </p>
+              </div>
+              <div class="col-6">
+                <img src="imgs/card-item-02.jpg">
+                <p class="mt-2">Quisque tristique elementum purus. Morbi pretium ipsum at neque tempus vehicula. 
+                  Praesent tincidunt ullamcorper libero at pharetra. Pellentesque augue dui, 
+                  blandit ac molestie vel, gravida quis eros. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rodapé modal -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
   </div>
 
   <!-- SCRIPTS -->
