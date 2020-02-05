@@ -138,7 +138,7 @@
 
     <div class="row">
       <div class="col-12 text-center my-5">
-        <h1 class="display-3">Lorem ipsum</h1 cl>
+        <h1 class="display-3"><i class="fa fa-cogs text-primary" aria-hidden="true"></i> Lorem ipsum</h1 cl>
         <p>Phasellus tristique augue id mi eleifend, a lobortis risus dapibus.</p>
       </div>
     </div>
@@ -309,7 +309,7 @@
 
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="display-4">Maecenas dui erat</h1>
+          <h1 class="display-4"><i class="fa fa-video-camera text-primary" aria-hidden="true"></i> Maecenas dui erat</h1>
           <p class="lead">Aenean sapien justo, maximus id feugiat in, eleifend nec neque. 
             Vivamus eu vulputate nulla.</p>
             <hr>
@@ -337,8 +337,8 @@
             <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
               <div class="row">
                 <div class="col-sm-6">
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4q2sIZUSLRA"></iframe>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mqfwbf3X8SA"></iframe>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -355,8 +355,8 @@
             <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
               <div class="row">
                 <div class="col-sm-6">
-                  <div class="embed-responsive embed-responsive-4by3">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4q2sIZUSLRA"></iframe>
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/u2ndb_lt4xA"></iframe>
                   </div>
                 </div>
                 <div class="col-sm-6">
@@ -390,6 +390,118 @@
       </div>
 
     </div>
+  </div>
+
+  <!--Formulário -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center my-4">
+        <h1 class="display-4"><i class="fa fa-paper-plane text-primary" aria-hidden="true"></i> Fusce placerat ligula</h1>
+      </div>
+    </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <form action="#" method="POST">
+
+            <div class="form-row">
+              <!-- Nome -->
+              <div class="form-group col-sm-6">
+                <label for="inputNome">Seu nome</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+              </div>
+
+              <!-- Sobrenome -->
+              <div class="form-group col-sm-6">
+                <label for="inputSobrenome">Seu sobrenome</label>
+                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <!-- Endereço -->
+              <div class="form-group col-sm-12">
+                <label for="inputEndereco">Informe o endereço</label>
+                <input type="text" class="form-control" id="inputEnd" placeholder="Endereço">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <!--Cidade -->
+              <div class="form-group col-sm-7">
+                <label for="inputCidade">Informe a cidade</label>
+                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+              </div>
+
+              <!-- Estado -->
+              <div class="form-group col-sm-2">
+                <label for="selectEstado">UF</label>
+                <select class="form-control" id="selectEstado">
+                  <option value=""></option>
+                  <option value="AC">AC</option>
+                  <option value="AL">AL</option>
+                  <option value="AP">AP</option>
+                  <option value="AM">AM</option>
+                  <option value="BA">BA</option>
+                  <option value="CE">CE</option>
+                  <option value="DF">DF</option>
+                  <option value="ES">ES</option>
+                  <option value="GO">GO</option>
+                  <option value="MA">MA</option>
+                  <option value="MS">MS</option>
+                  <option value="MT">MT</option>
+                  <option value="MG">MG</option>
+                  <option value="PA">PA</option>
+                  <option value="PB">PB</option>
+                  <option value="PR">PR</option>
+                  <option value="PE">PE</option>
+                  <option value="PI">PI</option>
+                  <option value="RJ">RJ</option>
+                  <option value="RN">RN</option>
+                  <option value="RS">RS</option>
+                  <option value="RO">RO</option>
+                  <option value="RR">RR</option>
+                  <option value="SC">SC</option>
+                  <option value="SP">SP</option>
+                  <option value="SE">SE</option>
+                  <option value="TO">TO</option>
+                </select>
+              </div>
+
+              <!-- CEP -->
+              <div class="form-group col-sm-3">
+                <label for="inputCEP">Seu CEP</label>
+                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+              </div>
+            </div>
+
+            <!-- Check receber novidades por email -->
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" 
+                    id="checkReceberEmail"> Desejo receber novidades por e-mail
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Enviar -->
+            <div class="form-row">
+              <div class="col-sm-12">
+                <button class="btn btn-primary" type="submit" id="btnEnviar">Enviar</button>
+                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" 
+                data-placement="right" data-trigger="hover" title="Mauris convallis nibh" 
+                data-content="Nullam fringilla rutrum tellus, ac dignissim tellus pretium vel">Ajuda</a>
+              </div>
+            </div>
+          </div>
+
+          </form>
+        </div>
+      </div>
+
   </div>
 
   <!-- Modal -->
@@ -629,6 +741,15 @@
   <script src="node_modules/popper.js/dist/umd/popper.js"></script>
   <!-- Bootstrap JS -->
   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script>
+    
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+
+  </script>
+
 </body>
 
 </html>
