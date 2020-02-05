@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-  <meta http-equiv="Cache-Control" content="no-cache" />
+  <!-- <meta http-equiv="Cache-Control" content="no-cache" />
   <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Expires" content="0" /> -->
 
   <title>Site com Bootstrap 4</title>
 
@@ -392,7 +392,6 @@
     </div>
   </div>
 
-  <!--Formulário -->
   <div class="container">
     <div class="row">
       <div class="col-12 text-center my-4">
@@ -400,107 +399,152 @@
       </div>
     </div>
 
-      <div class="row justify-content-center mb-5">
-        <div class="col-sm-12 col-md-10 col-lg-8">
-          <form action="#" method="POST">
+    <!-- Formulário -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-12 col-md-10 col-lg-8">
+        <form action="#" method="POST">
 
-            <div class="form-row">
-              <!-- Nome -->
-              <div class="form-group col-sm-6">
-                <label for="inputNome">Seu nome</label>
-                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
-              </div>
-
-              <!-- Sobrenome -->
-              <div class="form-group col-sm-6">
-                <label for="inputSobrenome">Seu sobrenome</label>
-                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
-              </div>
+          <div class="form-row">
+            <!-- Nome -->
+            <div class="form-group col-sm-6">
+              <label for="inputNome">Seu nome</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Nome">
             </div>
 
-            <div class="form-row">
-              <!-- Endereço -->
-              <div class="form-group col-sm-12">
-                <label for="inputEndereco">Informe o endereço</label>
-                <input type="text" class="form-control" id="inputEnd" placeholder="Endereço">
-              </div>
+            <!-- Sobrenome -->
+            <div class="form-group col-sm-6">
+              <label for="inputSobrenome">Seu sobrenome</label>
+              <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <!-- Endereço -->
+            <div class="form-group col-sm-12">
+              <label for="inputEndereco">Informe o endereço</label>
+              <input type="text" class="form-control" id="inputEnd" placeholder="Endereço">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <!--Cidade -->
+            <div class="form-group col-sm-7">
+              <label for="inputCidade">Informe a cidade</label>
+              <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
             </div>
 
-            <div class="form-row">
-              <!--Cidade -->
-              <div class="form-group col-sm-7">
-                <label for="inputCidade">Informe a cidade</label>
-                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
-              </div>
-
-              <!-- Estado -->
-              <div class="form-group col-sm-2">
-                <label for="selectEstado">UF</label>
-                <select class="form-control" id="selectEstado">
-                  <option value=""></option>
-                  <option value="AC">AC</option>
-                  <option value="AL">AL</option>
-                  <option value="AP">AP</option>
-                  <option value="AM">AM</option>
-                  <option value="BA">BA</option>
-                  <option value="CE">CE</option>
-                  <option value="DF">DF</option>
-                  <option value="ES">ES</option>
-                  <option value="GO">GO</option>
-                  <option value="MA">MA</option>
-                  <option value="MS">MS</option>
-                  <option value="MT">MT</option>
-                  <option value="MG">MG</option>
-                  <option value="PA">PA</option>
-                  <option value="PB">PB</option>
-                  <option value="PR">PR</option>
-                  <option value="PE">PE</option>
-                  <option value="PI">PI</option>
-                  <option value="RJ">RJ</option>
-                  <option value="RN">RN</option>
-                  <option value="RS">RS</option>
-                  <option value="RO">RO</option>
-                  <option value="RR">RR</option>
-                  <option value="SC">SC</option>
-                  <option value="SP">SP</option>
-                  <option value="SE">SE</option>
-                  <option value="TO">TO</option>
-                </select>
-              </div>
-
-              <!-- CEP -->
-              <div class="form-group col-sm-3">
-                <label for="inputCEP">Seu CEP</label>
-                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
-              </div>
+            <!-- Estado -->
+            <div class="form-group col-sm-2">
+              <label for="selectEstado">UF</label>
+              <select class="form-control" id="selectEstado">
+                <option value=""></option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+              </select>
             </div>
 
-            <!-- Check receber novidades por email -->
-            <div class="form-row">
-              <div class="form-group col-sm-12">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" 
-                    id="checkReceberEmail"> Desejo receber novidades por e-mail
-                  </label>
-                </div>
-              </div>
+            <!-- CEP -->
+            <div class="form-group col-sm-3">
+              <label for="inputCEP">Seu CEP</label>
+              <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
             </div>
+          </div>
 
-            <!-- Enviar -->
-            <div class="form-row">
-              <div class="col-sm-12">
-                <button class="btn btn-primary" type="submit" id="btnEnviar">Enviar</button>
-                <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" 
-                data-placement="right" data-trigger="hover" title="Mauris convallis nibh" 
-                data-content="Nullam fringilla rutrum tellus, ac dignissim tellus pretium vel">Ajuda</a>
+          <!-- Check receber novidades por email -->
+          <div class="form-row">
+            <div class="form-group col-sm-12">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" 
+                  id="checkReceberEmail"> Desejo receber novidades por e-mail
+                </label>
               </div>
             </div>
           </div>
 
-          </form>
+          <!-- Enviar -->
+          <div class="form-row">
+            <div class="col-sm-12">
+              <button class="btn btn-primary" type="submit" id="btnEnviar">Enviar</button>
+              <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" 
+              data-placement="right" data-trigger="hover" title="Mauris convallis nibh" 
+              data-content="Nullam fringilla rutrum tellus, ac dignissim tellus pretium vel">Ajuda</a>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="row">
+      <div class="col-12 mb-3"><hr></div>
+
+      <div class="col-sm-4">
+        <h3 class="text-center">Curso</h3>
+        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pulvinar nec eros sit amet 
+          hendrerit. Proin ac efficitur mi. Suspendisse potenti. Ut rutrum sodales nibh eget pharetra.</p>
+        <p class="text-justify">Nulla imperdiet mi nec metus commodo, sit amet pharetra ipsum scelerisque. 
+          Ut maximus est vitae sapien molestie, eget dictum ex tempor. 
+          Aenean sapien lorem, condimentum sit amet magna nec, rutrum semper ipsum.</p>
+      </div>
+
+      <div class="col-sm-4 text-center">
+        <h3>Menu</h3>
+        <div class="list-group">
+          <a class="list-group-item list-group-item-action list-group-item-secondary active" href="#">Início</a>
+          <a class="list-group-item list-group-item-action list-group-item-secondary" href="#">Perfil</a>
+          <a class="list-group-item list-group-item-action list-group-item-secondary" href="#">Serviços</a>
+          <a class="list-group-item list-group-item-action list-group-item-secondary" href="#">Depoimentos</a>
+          <a class="list-group-item list-group-item-action list-group-item-secondary" href="#">Contatos</a>
         </div>
       </div>
+
+      <div class="col-sm-4">
+        <h3 class="text-center">Social</h3>
+        <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+          <a class="btn btn-outline-primary" href="#">
+            <i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a>
+          <a class="btn btn-outline-info" href="#">
+            <i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+          <a class="btn btn-outline-danger" href="#">
+            <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </div>
+      </div>
+
+      <div class="col-12 mt-5">
+        <blockquote class="blockquote text-center">
+          <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver
+            emocionalmente envolvido em seu trabalho.</p>
+          <footer class="blockquote-footer">Biz Stone <cite title="Título"> Fundador do Twitter</cite></footer>
+        </blockquote>
+      </div>
+    </div>
 
   </div>
 
